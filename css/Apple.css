@@ -1,0 +1,535 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+h1{
+	font-size: 40px;
+	color: #1d1d1f;
+}
+h2{
+	font-size: 56px;
+	font-weight: 600;
+	color: #1d1d1f;
+	display: block;
+	width: 100%;	
+}
+h3{
+	color: #1d1d1f;
+	font-size: 28px;
+	font-weight: 400;
+	margin-top: 6px;
+	text-align: center;
+	width: 100%;
+}
+h4{
+	color: #1d1d1f;
+	font-size: 21px;
+	font-weight: 400;
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+h5{
+	color: #6e6e73;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+	color: #06c;
+	font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+}
+a:hover{
+	text-decoration: underline;
+}
+#all{
+	min-width: 1280px;
+}
+#all #nav{
+	width: 100%;
+	height: 44px;
+	background: rgba(0,0,0,0.8);
+	font-size: 14px;
+	position: fixed;
+}
+#all #nav ul{
+	width: 1200px;
+	height: 44px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#all #nav ul li{
+	float: left;
+	line-height: 44px;
+	width: 92px;
+	text-align: center;
+}
+#all #nav ul li svg{
+	margin-top: 5px;
+	position: relative;
+	top: -3px;
+}
+#all #nav ul li a{
+	color: #d6d6d6;
+	font-size: smaller;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#all #contents #content1{
+	width: 100%;
+	height: 600px;
+    background: url("../images/1.jpg") no-repeat center;
+	background-color:rgb(251, 251, 253);
+	cursor:pointer;
+}
+#all #contents #content1 #content1_1{
+	width: 100%;
+	height: 235px;
+	padding-top: 47px;
+	text-align: center;
+}
+#all #contents #content1 #content1_1 h2{
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+	color: #1d1d1f;
+	position: relative;
+	top: 30px;
+}
+#all #contents #content1 #content1_1 h3{
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+	margin-bottom: 12px;
+    color: #1d1d1f;
+    font-style: normal;
+	position: relative;
+	top: 40px;
+}
+#all #contents #content1 #content1_1 #a1{
+	font-synthesis: none;
+	font-size: 18px;
+    line-height: 1.47059;
+    font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: normal;
+	position: relative;
+	top: 50px;
+	position: relative;
+	left: -20px;
+}
+#all #contents #content1 #content1_1 #a2{
+	font-synthesis: none;
+	font-size: 18px;
+    line-height: 1.47059;
+    font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: normal;
+	position: relative;
+	top: 50px;
+	position: relative;
+	left: 20px;
+}
+#all #contents #content2{
+	width: 100%;
+    height: 550px;
+	background: url("../images/2.jpg") no-repeat center;
+	background-color:rgb(251, 251, 253);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+#all #contents #content2 #content2_1{
+	width: 100%;
+	padding-top: 47px;
+	text-align: center;
+	background:url("../images/logo1.png") no-repeat center;
+	padding-top: 60px;
+}
+#all #contents #content2 #content2_1 h2{
+	font-size: 18px;
+	margin-bottom: 20px;
+	position: relative;
+	top: -20px;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#all #contents #content2 #content2_1 h4{
+	font-size: 24px;
+	margin-bottom: 20px;
+	position: relative;
+	top: 20px;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#all #contents #content2 #content2_1 #a1{
+	font-size: 18px;
+	position: relative;
+	top: 20px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	left: -20px;
+}
+#all #contents #content2 #content2_1 #a2{
+	font-size: 18px;
+	position: relative;
+	top: 20px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	left: 20px;
+}
+#all #contents #content3{
+	width: 100%;
+    height: 550px;
+	background: url("../images/3.jpg") no-repeat center;
+    background-color:rgb(251, 251, 253);
+	margin-top: 0px;
+	cursor:pointer;
+}
+#all #contents #content3 #content3_1{
+	width: 100%;
+	height: auto;
+	padding-top: 47px;
+	text-align: center;
+	background:url("../images/logo2.png") no-repeat center;
+}
+#all #contents #content3 #content3_1 h4{
+	font-size: 24px;
+	margin-bottom: 20px;
+	position: relative;
+	top: 50px;
+}
+#all #contents #content3 #content3_1 #a1{
+	font-size: 16px;
+	color: #2997ff;
+	position: relative;
+	top: 42px;
+	position: relative;
+	left: -20px;
+}
+#all #contents #content3 #content3_1 #a2{
+	font-size: 16px;
+	color: #2997ff;
+	position: relative;
+	top: 42px;
+	position: relative;
+	left: 20px;
+}
+#all #contents #content4,#content5,#content6{
+	width: 100%;
+	height: 580px;
+	margin-top: 15px;
+	text-align: center;
+}
+#all #contents #content4 #content4_1{
+	width: 49.5%;
+	height: 580px;
+	background: url("../images/4.jpg") no-repeat;
+	background-position: center;
+    float: left;
+	cursor:pointer;
+}
+#all #contents #content4 #content4_1 h4{
+	color: rgb(198, 225, 230);
+	margin-top: 415px;
+	position: relative;
+	top: -10px;
+}
+#all #contents #content4 #content4_1 a{
+	font-size: 14px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: -10px;
+}
+#all #contents #content4 #content4_1_img{
+	width: 100%;
+	height: auto;
+	padding-bottom: 47px;
+	background: url("../images/logo3.png") no-repeat center;
+	position: relative;
+	bottom: -400px;
+}
+#all #contents #content4 #content4_2{
+	width: 49.5%;
+	height: 580px;
+	background: url("../images/5.jpg") no-repeat;
+	background-position: center;
+    float: right;
+	cursor:pointer;
+}
+#all #contents #content4 #content4_2 h3{
+	color: #bf4800;
+	font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 600;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: 40px;
+}
+#all #contents #content4 #content4_2 h4{
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+    font-size: 36px;
+	letter-spacing: 0.00em;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: 40px;
+}
+#all #contents #content4 #content4_2 h5{
+	color: #28282a; 
+	font-size: 18px;
+    line-height: 1.47059;
+    font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: 40px;
+}
+#all #contents #content4 #content4_2 a{
+	font-size: 14px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: 0em;
+	position: relative;
+	top: 40px;
+}
+#all #contents #content5 #content5_1{
+	width: 49.5%;
+	height: 580px;
+	background: url("../images/6.jpg") no-repeat;
+	background-position: center;
+	float: left;
+	margin-bottom: 0px;
+	cursor:pointer;
+}
+#all #contents #content5 #content5_1 h1{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: 80px;
+}
+#all #contents #content5 #content5_1 #a1{
+	font-size: 14px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: 0em;
+	position: relative;
+	top: 90px;
+	left: -10px;
+}
+#all #contents #content5 #content5_1 #a2{
+	font-size: 14px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: 0em;
+	position: relative;
+	top: 90px;
+	left: 10px;
+}
+#all #contents #content5 #content5_1_img{
+	width: 100%;
+	height: auto;
+	padding-bottom: 47px;
+	background: url("../images/logo4.png") no-repeat center;
+	position: relative;
+	bottom: -70px;
+}
+#all #contents #content5 #content5_2{
+	width: 49.5%;
+	height: 580px;
+	background: url("../images/7.jpg") no-repeat;
+	background-position: center;
+	float: right;
+	cursor:pointer;
+}
+#all #contents #content5 #content5_2 h1{
+	font-weight: 600;
+	position: relative;
+	top: 45px;
+	letter-spacing: -0.02em;
+}
+#all #contents #content5 #content5_2 h4{
+	font-size: 20px;
+    line-height: 1.47059;
+    font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: 45px; 
+	letter-spacing: 0.00em;
+}
+#all #contents #content5 #content5_2 #a1{
+	font-size: 14px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: 0em;
+	position: relative;
+	top: 50px;
+	left: -10px;
+}
+#all #contents #content5 #content5_2 #a2{
+	font-size: 14px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: 0em;
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+#all #contents #content6 #content6_1{
+	width: 49.5%;
+	height: 580px;
+	background: url("../images/8.jpg") no-repeat;
+	background-position: center;
+	float: left;
+	cursor:pointer;
+}
+#all #contents #content6 #content6_1 h1{
+	font-weight: 600;
+	position: relative;
+	top: 430px;
+	letter-spacing: -.022em;
+}
+#all #contents #content6 #content6_1 h4{
+	font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	top: 430px;
+	letter-spacing: 0.07em;
+}
+#all #contents #content6 #content6_1 #a1{
+	position: relative;
+	top: 430px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: -.022em;
+	position: relative;
+	left: -10px;
+}
+#all #contents #content6 #content6_1 #a2{
+	position: relative;
+	top: 430px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: -.022em;
+	position: relative;
+	left: 10px;
+}
+#all #contents #content6 #content6_2{
+	width: 49.5%;
+	height: 580px;
+	background: url("../images/9.jpg") no-repeat;
+	background-position: center;
+	float: right;
+	cursor:pointer;
+}
+#all #contents #content6 #content6_2 h1{
+	font-weight: 600;
+	font-size: 35px;
+	position:relative;
+	top: 2px;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#all #contents #content6 #content6_2 a{
+	font-size: 17px;
+	line-height: 1.47059;
+	font-weight: 500;
+	color: #287ed4;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	letter-spacing: 0em;
+	position:relative;
+	top: 60px;
+}
+#all #contents #content6 #content6_2_img{
+	width: 100%;
+	height: auto;
+	padding-bottom: 47px;
+	background: url("../images/logo5.png") no-repeat center;
+	position: relative;
+	top: 100px;
+}
+#all #footer{
+	width: 100%;
+	background: #f5f5f7;
+	margin-top: 15px;
+	padding-top: 20px;
+	text-align: center;
+}
+#all #footer div#lists{
+	width: 900px;
+	height: 350px;
+	margin: 0px auto;
+	text-align: left;
+}
+#all #footer div#lists li{
+	height: 26px;
+}
+#all #footer div#lists div.list{
+	width: 180px;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	line-height: 26px;
+	color: #424245;
+}
+#all #footer div#lists div.list ul li:first-child{
+	font-weight: bold;
+}
+#all #footer div#lists div.list ul li a{
+	color: #424245;
+	font-size: smaller;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif; 
+}
+#all #footer div#lists div.list p{
+	height: 10px;
+}
+#all #footer p{
+	width: 900px;
+	height: 22px;
+	font-size: smaller;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif; 
+	margin: 0 auto;
+	text-align: left;
+}
+#all #footer p #pa{
+	height: 22px;
+}
+#all #footer a{
+	font-size: smaller;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif; 
+}
+#all #footer #pa a{
+	color: #424245;
+	border-right: 1px solid #424245;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: smaller;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif; 
+}
+#all #footer p#pa a:last-child{
+	border: none;
+}
